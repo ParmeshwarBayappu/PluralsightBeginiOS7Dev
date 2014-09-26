@@ -21,10 +21,25 @@
 			remoteGlobalIDString = 5E1CAA1619D49E01006DC4EE;
 			remoteInfo = "Protein TrackerTests";
 		};
+		5EC94EA619D384260007D055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC94EA119D3841F0007D055 /* HellowWorld_1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5EC94E7819D3841F0007D055;
+			remoteInfo = HellowWorld_1;
+		};
+		5EC94EA819D384260007D055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC94EA119D3841F0007D055 /* HellowWorld_1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5EC94E9119D3841F0007D055;
+			remoteInfo = HellowWorld_1Tests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5E1CAA2619D49E01006DC4EE /* Protein Tracker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Protein Tracker.xcodeproj"; path = "../Protein Tracker/Protein Tracker.xcodeproj"; sourceTree = "<group>"; };
+		5EC94EA119D3841F0007D055 /* HellowWorld_1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HellowWorld_1.xcodeproj; path = HellowWorld_1/HellowWorld_1.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -41,7 +56,17 @@
 			isa = PBXGroup;
 			children = (
 				5E1CAA2619D49E01006DC4EE /* Protein Tracker.xcodeproj */,
+				5EC94EA119D3841F0007D055 /* HellowWorld_1.xcodeproj */,
 			);
+			sourceTree = "<group>";
+		};
+		5EC94EA219D3841F0007D055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC94EA719D384260007D055 /* HellowWorld_1.app */,
+				5EC94EA919D384260007D055 /* HellowWorld_1Tests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,6 +87,10 @@
 			mainGroup = 5EC94E6819D37E620007D055;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 5EC94EA219D3841F0007D055 /* Products */;
+					ProjectRef = 5EC94EA119D3841F0007D055 /* HellowWorld_1.xcodeproj */;
+				},
 				{
 					ProductGroup = 5E1CAA2719D49E01006DC4EE /* Products */;
 					ProjectRef = 5E1CAA2619D49E01006DC4EE /* Protein Tracker.xcodeproj */;
@@ -86,6 +115,20 @@
 			fileType = wrapper.cfbundle;
 			path = "Protein TrackerTests.xctest";
 			remoteRef = 5E1CAA2D19D49E01006DC4EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5EC94EA719D384260007D055 /* HellowWorld_1.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HellowWorld_1.app;
+			remoteRef = 5EC94EA619D384260007D055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5EC94EA919D384260007D055 /* HellowWorld_1Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HellowWorld_1Tests.xctest;
+			remoteRef = 5EC94EA819D384260007D055 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

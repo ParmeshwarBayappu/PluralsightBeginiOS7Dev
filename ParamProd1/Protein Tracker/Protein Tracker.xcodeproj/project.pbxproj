@@ -14,7 +14,6 @@
 		5E1CAA0E19D49E01006DC4EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1CAA0D19D49E01006DC4EE /* Images.xcassets */; };
 		5E1CAA1119D49E01006DC4EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E1CAA0F19D49E01006DC4EE /* LaunchScreen.xib */; };
 		5E1CAA1D19D49E01006DC4EE /* Protein_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1CAA1C19D49E01006DC4EE /* Protein_TrackerTests.m */; };
-		5E8C4D2B19D4ED2B00B2105D /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C4D2A19D4ED2B00B2105D /* HistoryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,6 @@
 		5E1CAA1619D49E01006DC4EE /* Protein TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protein TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1CAA1B19D49E01006DC4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E1CAA1C19D49E01006DC4EE /* Protein_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Protein_TrackerTests.m; sourceTree = "<group>"; };
-		5E8C4D2919D4ED2B00B2105D /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
-		5E8C4D2A19D4ED2B00B2105D /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +89,6 @@
 				5E1CAA0D19D49E01006DC4EE /* Images.xcassets */,
 				5E1CAA0F19D49E01006DC4EE /* LaunchScreen.xib */,
 				5E1CAA0019D49E01006DC4EE /* Supporting Files */,
-				5E8C4D2919D4ED2B00B2105D /* HistoryViewController.h */,
-				5E8C4D2A19D4ED2B00B2105D /* HistoryViewController.m */,
 			);
 			path = "Protein Tracker";
 			sourceTree = "<group>";
@@ -227,7 +222,6 @@
 				5E1CAA0919D49E01006DC4EE /* MainViewController.m in Sources */,
 				5E1CAA0619D49E01006DC4EE /* AppDelegate.m in Sources */,
 				5E1CAA0319D49E01006DC4EE /* main.m in Sources */,
-				5E8C4D2B19D4ED2B00B2105D /* HistoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +412,6 @@
 				5E1CAA2219D49E01006DC4EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		5E1CAA2319D49E01006DC4EE /* Build configuration list for PBXNativeTarget "Protein TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -427,7 +420,6 @@
 				5E1CAA2519D49E01006DC4EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
