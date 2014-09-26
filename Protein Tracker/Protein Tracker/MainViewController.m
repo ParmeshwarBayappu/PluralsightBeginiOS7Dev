@@ -27,6 +27,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSInteger goal = [[NSUserDefaults standardUserDefaults] integerForKey:@"goal"];
+    self.goalField.text = [NSString stringWithFormat:@"%ld", (long)goal];
+    
+    NSNotificationCenter * 	notificaitonCenter = [NSNotificationCenter defaultCenter];
+    [notificaitonCenter addObserver:self selector:@selector(goalChanged:) name:NSUserDefaultsDidChangeNotification object:nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -42,6 +48,11 @@
     self.totalField.text = [NSString stringWithFormat:@"%d", total];
     
     NSLog(@"Amt %ld", amount);
+    
+    if(total >= self.goalField.text.integerValue){
+        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Success" message:@"Reached your goal!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alert show];
+    }
 }
 
 -(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -57,5 +68,13 @@
         HistoryViewController * destController = segue.destinationViewController;
         [destController setHistoryData:historyData];
     }
+}
+
+-(void) goalChanged:(NSNotification *)notification{
+
+    NSUserDefaults * userDefaults = (NSUserDefaults *)notification;
+    NSInteger goal = [userDefaults integerForKey:@"goal"];
+    self.goalField.text = [NSString stringWithFormat:@"%ld", (long)goal];
+
 }
 @end

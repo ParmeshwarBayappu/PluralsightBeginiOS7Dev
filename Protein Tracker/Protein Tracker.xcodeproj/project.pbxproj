@@ -15,6 +15,7 @@
 		5E1CAA1119D49E01006DC4EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E1CAA0F19D49E01006DC4EE /* LaunchScreen.xib */; };
 		5E1CAA1D19D49E01006DC4EE /* Protein_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1CAA1C19D49E01006DC4EE /* Protein_TrackerTests.m */; };
 		5E8C4D2B19D4ED2B00B2105D /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C4D2A19D4ED2B00B2105D /* HistoryViewController.m */; };
+		5ECB15D719D5E24400B57437 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5ECB15D619D5E24400B57437 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		5E1CAA1C19D49E01006DC4EE /* Protein_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Protein_TrackerTests.m; sourceTree = "<group>"; };
 		5E8C4D2919D4ED2B00B2105D /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
 		5E8C4D2A19D4ED2B00B2105D /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		5ECB15D619D5E24400B57437 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		5E1CA9F419D49E01006DC4EE = {
 			isa = PBXGroup;
 			children = (
+				5ECB15D619D5E24400B57437 /* Settings.bundle */,
 				5E1CA9FF19D49E01006DC4EE /* Protein Tracker */,
 				5E1CAA1919D49E01006DC4EE /* Protein TrackerTests */,
 				5E1CA9FE19D49E01006DC4EE /* Products */,
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ECB15D719D5E24400B57437 /* Settings.bundle in Resources */,
 				5E1CAA0C19D49E01006DC4EE /* Main.storyboard in Resources */,
 				5E1CAA1119D49E01006DC4EE /* LaunchScreen.xib in Resources */,
 				5E1CAA0E19D49E01006DC4EE /* Images.xcassets in Resources */,

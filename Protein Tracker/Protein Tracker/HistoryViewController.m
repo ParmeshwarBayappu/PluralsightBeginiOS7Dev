@@ -23,8 +23,6 @@
         [combStr appendFormat:@"%@\n", item];
     }
     self.historyLabel.text = combStr;
-    
-    NSString * temp = self.historyLabel.text;
 }
 
 - (void)didReceiveMemoryWarning {

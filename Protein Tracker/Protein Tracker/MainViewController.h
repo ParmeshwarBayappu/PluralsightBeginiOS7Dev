@@ -18,5 +18,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *amountField;
 - (IBAction)onAdd:(id)sender;
 - (IBAction) unWind:(UIStoryboardSegue *)seque;
+- (void) goalChanged:(NSNotification *) notification;
 @end
 
